@@ -1,9 +1,9 @@
 public class Zadanie1 {
 
     public static void printThreeWords() {
-        System.out.print("Orange\n");
-        System.out.print("Banana\n");
-        System.out.print("Apple\n");
+        System.out.println("Orange");
+        System.out.println("Banana");
+        System.out.println("Apple");
     }
 
     public static void main(String[] args) {
