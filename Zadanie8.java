@@ -1,17 +1,16 @@
 public class Zadanie8 {
-     public static void ОтпечататьУказанноеКоличествоРаз(String Text, int Skolko) {
+    public static void printNTime(String text, int count) {
 
-              for (int i = 0; i < Skolko; i++) 
-              {
-            System.out.println(Text);
+        for (int i = 0; i < count; i++) {
+            System.out.println(text);
         }
     }
-    
-     public static void main(String[] args) {
-       
-                     ОтпечататьУказанноеКоличествоРаз("Привет", 3);
 
-                  ОтпечататьУказанноеКоличествоРаз("Privet", 12);
-         
+    public static void main(String[] args) {
+
+        printNTime("Привет", 3);
+
+        printNTime("Privet", 7);
+
     }
 }

@@ -1,13 +1,11 @@
 public class Zadanie6 {
-     public static void ProverkaZnaka(int number) {
-        
-        if (number >= 0) {
-            System.out.println("Число " + number + " является положительным");
-        } else {
-            System.out.println("Число " + number + " является отрицательным");
-        }
+    public static void checkSign(int number) {
+
+        System.out.println(number < 0 ? "Число отрицательное" : "Число положительное");
     }
+
     public static void main(String[] args) {
-       ProverkaZnaka(-33); 
+        checkSign(-7);
+        checkSign(0);
     }
 }
